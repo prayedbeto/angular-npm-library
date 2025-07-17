@@ -1,0 +1,28 @@
+.card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+}
+
+.card-header {
+  padding: 16px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.card-title {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.card-subtitle {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.card-content {
+  padding: 16px;
+}

@@ -1,0 +1,9 @@
+<div class="card" [style.box-shadow]="'0 ' + elevation + 'px ' + (elevation * 2) + 'px rgba(0,0,0,0.1)'">
+  <div class="card-header" *ngIf="title || subtitle">
+    <h3 class="card-title" *ngIf="title">{{title}}</h3>
+    <p class="card-subtitle" *ngIf="subtitle">{{subtitle}}</p>
+  </div>
+  <div class="card-content">
+    <ng-content></ng-content>
+  </div>
+</div>

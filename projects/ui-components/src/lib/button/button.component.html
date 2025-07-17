@@ -1,0 +1,6 @@
+<button 
+  [class]="'btn btn-' + type + ' btn-' + size"
+  [disabled]="disabled"
+  (click)="handleClick($event)">
+  {{label}}
+</button>
